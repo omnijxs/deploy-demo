@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import {Link} from "react-router";
 
 export default function HomeComponent() {
     return (
@@ -7,7 +7,6 @@ export default function HomeComponent() {
             <div>
                 <Link to="/foo">Foo</Link>
             </div>
-
             <div>
                 <Link to="/bar">Bar</Link>
             </div>
